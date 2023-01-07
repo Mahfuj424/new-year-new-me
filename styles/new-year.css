@@ -31,7 +31,7 @@ header{
     border: none;
     color: rgb(70, 70, 190);
 }
-/* primary margin for section */
+/* common margin for section */
 section{
     margin: 130px 0
 }
@@ -81,7 +81,6 @@ section{
     height: 300px;
     margin-left: 12%;
     background-blend-mode: multiply;
-    /* background-image:  url("../images/watch.png"),linear-gradient(90deg, rgb( #005FAC)0%,rgba(0, 95, 172, 0)10%); */
     background: url("../images/watch.png"), linear-gradient(90deg, hwb(207 0% 0%) 0%, rgba(0, 95, 172, 0) 100%);
     border-radius: 8px;
     
