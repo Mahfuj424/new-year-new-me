@@ -7,7 +7,7 @@ header{
 }
 *{
     margin: 0;
-    font-family:'Times New Roman', Times, serif;
+    
 }
 .header-title{
     text-align: right;
@@ -53,7 +53,7 @@ section{
     list-style: none;
 }
 .currect{
-    color: rgb(87, 225, 225);
+    color: rgb(8, 247, 247);
 }
 /* this is my plans item style */
 .plans-title{
@@ -72,6 +72,7 @@ section{
 }
 .plans-work p, img{
     margin: 10px 0;
+    font-size: 20px;
 }
 /* Regular exercise keeps your mind healthy */
 .healthy-mind{
@@ -104,7 +105,6 @@ section{
 
 .future-plan{
     width: 1519.5px;
-    height: 450px;
     background-color: black;
     color: white;
     display: flex;
@@ -113,19 +113,19 @@ section{
 .social-media{
     display: flex;
 }
-.footer-item-1{
+.footer-items-1{
     padding: 130px 480px 130px 230px;
 }
-.footer-item-2{
+.footer-items-2{
     padding: 130px 229px 243px 0;
 }
-.footer-item-1 p{
+.footer-items-1 p{
     margin: 10px 0;
 }
-.footer-item-1 img{
-    margin-right: 13px;
+.footer-items-1 img{
+    margin-right: 20px;
 }
-.footer-item-2 input{
+.footer-items-2 input{
     margin: 13px 0;
     color: white;
     background-color: black;
@@ -133,7 +133,7 @@ section{
     border: 1px solid white;
     border-radius: 5px;
 }
-.footer-item-2 button{
+.footer-items-2 button{
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
